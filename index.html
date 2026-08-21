@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
 </head>
 
 <body>
+
   <header>
     <div class="container nav">
       <a class="brand" href="#">Waypoints Next Gen</a>
@@ -28,13 +30,20 @@
     </div>
   </header>
 
+
   <main>
+
+    <!-- HERO -->
     <section class="hero">
       <div class="container hero-grid">
+
         <div>
           <span class="eyebrow">Vintage Story Mod</span>
 
-          <h1>Waypoints,<br>made better.</h1>
+          <h1>
+            Waypoints,<br>
+            made better.
+          </h1>
 
           <p class="lead">
             Waypoints Next Gen improves waypoint creation with better controls,
@@ -42,27 +51,34 @@
           </p>
 
           <div class="buttons">
+
             <a
               class="button primary"
-              href="https://github.com/iSanax/Waypoints-NextGen"
+              href="#versions"
             >
-              GitHub
+              View Versions
             </a>
 
             <a
               class="button"
-              href="https://github.com/iSanax/Waypoints-NextGen/releases"
+              href="#features"
             >
-              Download
+              Explore Features
             </a>
+
           </div>
 
           <p class="version">
-            Development version: <strong>2.2.0-dev.x</strong>
+            Development version:
+            <strong id="development-version-hero">
+              2.2.0-dev.x
+            </strong>
           </p>
         </div>
 
+
         <div class="preview">
+
           <div class="preview-title">
             <span>◆</span>
 
@@ -93,146 +109,360 @@
             <span>Position</span>
             <strong>Target position</strong>
           </div>
+
         </div>
+
       </div>
     </section>
 
+
+    <!-- FEATURES -->
     <section id="features">
+
       <div class="container">
+
         <span class="eyebrow">Features</span>
-        <h2>More convenient waypoint management.</h2>
+
+        <h2>
+          More convenient waypoint management.
+        </h2>
+
 
         <div class="cards">
+
           <article>
+
             <span class="number">01</span>
+
             <h3>Expanded Icons</h3>
+
             <p>
               More waypoint icons and organized categories make locations
               easier to recognize.
             </p>
+
           </article>
 
+
           <article>
+
             <span class="number">02</span>
+
             <h3>Fast Creation</h3>
+
             <p>
               Quickly create a waypoint using a keyboard shortcut without
               unnecessary steps.
             </p>
+
           </article>
 
+
           <article>
+
             <span class="number">03</span>
+
             <h3>Automatic Suggestions</h3>
+
             <p>
               The mod can detect the target and suggest its name, icon and
               position automatically.
             </p>
+
           </article>
+
         </div>
+
       </div>
+
     </section>
 
-    <section id="automatic" class="dark-section">
-      <div class="container split">
-        <div>
-          <span class="eyebrow">Experimental</span>
 
-          <h2>Automatic waypoint suggestions</h2>
+    <!-- AUTOMATIC WAYPOINTS -->
+    <section id="automatic" class="dark-section">
+
+      <div class="container split">
+
+        <div>
+
+          <span class="eyebrow">
+            Experimental
+          </span>
+
+          <h2 id="experimental-title">
+            Automatic waypoint suggestions
+          </h2>
 
           <p>
             Automatic waypoint suggestions are an experimental feature
-            introduced in <strong>2.2.0-dev.x</strong>, designed primarily to
-            work with content added by other mods without requiring manual
-            configuration.
+            introduced in
+            <strong id="development-version-experimental">
+              2.2.0-dev.x
+            </strong>.
           </p>
 
           <p>
-            When you press the <kbd>V</kbd> key while looking at a block or
-            creature, the mod attempts to detect the target and create a
-            waypoint with an appropriate name, icon and position.
+            <span id="experimental-description">
+              The system is designed primarily to work with content added by
+              other mods without requiring manual configuration.
+            </span>
+          </p>
+
+          <p>
+            When you press <kbd>V</kbd> while looking at a block or creature,
+            Waypoints Next Gen attempts to detect the target automatically.
+          </p>
+
+          <p>
+            The waypoint name, icon and position are then suggested using
+            technical identifiers and localization data provided by the game
+            and installed mods.
           </p>
 
           <p class="muted">
-            This feature is still under development, so some matches may be
-            inaccurate.
+            <span id="experimental-warning">
+              This feature is still under development, so some targets may receive
+              an incorrect name or icon.
+            </span>
           </p>
+
         </div>
+
 
         <div class="steps">
+
           <div class="step">
+
             <strong>1</strong>
+
             <div>
               <h3>Look at a target</h3>
-              <p>A creature or block can be detected.</p>
+
+              <p>
+                Aim at a creature or block.
+              </p>
             </div>
+
           </div>
 
+
           <div class="step">
+
             <strong>2</strong>
+
             <div>
               <h3>Press V</h3>
-              <p>The waypoint creation window opens for that target.</p>
+
+              <p>
+                Open the waypoint creation window.
+              </p>
             </div>
+
           </div>
+
 
           <div class="step">
+
             <strong>3</strong>
+
             <div>
-              <h3>Suggestion is generated</h3>
-              <p>Name, icon and position are filled automatically.</p>
+              <h3>Automatic detection</h3>
+
+              <p>
+                The mod analyzes the selected target.
+              </p>
             </div>
+
           </div>
+
+
+          <div class="step">
+
+            <strong>4</strong>
+
+            <div>
+              <h3>Waypoint suggestion</h3>
+
+              <p>
+                Name, icon and position are automatically filled.
+              </p>
+            </div>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- VERSIONS -->
     <section id="versions">
+
       <div class="container">
-        <span class="eyebrow">Versions</span>
-        <h2>Available versions.</h2>
+
+        <span class="eyebrow">
+          Versions
+        </span>
+
+        <h2>
+          Choose your version.
+        </h2>
+
 
         <div class="versions">
+
+          <!-- STABLE -->
           <article>
-            <span class="badge">Stable</span>
-            <h3>2.1.x</h3>
-            <p>Recommended for normal gameplay.</p>
+
+            <span class="badge">
+              Stable
+            </span>
+
+            <h3 id="stable-version">
+              2.1.x
+            </h3>
+
+            <p>
+              Recommended for normal gameplay where stability is the priority.
+            </p>
+
+            <a
+              id="stable-download"
+              class="button"
+              href="#"
+            >
+              Download Stable
+            </a>
+
           </article>
 
+
+          <!-- DEVELOPMENT -->
           <article class="dev">
-            <span class="badge">Development</span>
-            <h3>2.2.0-dev.x</h3>
+
+            <span class="badge">
+              Development
+            </span>
+
+            <h3 id="development-version">
+              2.2.0-dev.x
+            </h3>
+
             <p>
-              Includes experimental automatic waypoint suggestions and other
+              Includes experimental automatic waypoint suggestions and
               features currently being tested.
             </p>
+
+            <a
+              id="development-download"
+              class="button primary"
+              href="#"
+            >
+              Download Development
+            </a>
+
           </article>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- COMPATIBILITY -->
     <section id="compatibility" class="dark-section">
+
       <div class="container split">
+
         <div>
-          <span class="eyebrow">Compatibility</span>
-          <h2>Designed for modded content.</h2>
+
+          <span class="eyebrow">
+            Compatibility
+          </span>
+
+          <h2>
+            Designed for modded content.
+          </h2>
+
         </div>
 
-        <p>
-          The automatic suggestion system uses technical identifiers and
-          localization data provided by the game and installed mods. Its goal
-          is to recognize modded creatures and blocks without requiring
-          separate configuration for every mod.
-        </p>
+
+        <div>
+
+          <p>
+            Automatic waypoint suggestions use technical identifiers and
+            localization data provided by Vintage Story and installed mods.
+          </p>
+
+          <p>
+            The goal is to recognize modded creatures and blocks without
+            requiring individual configuration for every supported mod.
+          </p>
+
+          <p>
+            Compatibility will continue to improve as the automatic detection
+            system is developed.
+          </p>
+
+        </div>
+
       </div>
+
     </section>
+
+
+    <!-- PROJECT -->
+    <section>
+
+      <div class="container">
+
+        <span class="eyebrow">
+          Project
+        </span>
+
+        <h2>
+          Waypoints Next Gen
+        </h2>
+
+        <p class="lead">
+          A client-side Vintage Story mod focused on making waypoint creation
+          faster, easier and more useful while maintaining compatibility with
+          modded content.
+        </p>
+
+      </div>
+
+    </section>
+
   </main>
 
+
   <footer>
+
     <div class="container footer">
-      <span>Waypoints Next Gen</span>
-      <span>Vintage Story Mod</span>
+
+      <span>
+        Waypoints Next Gen
+      </span>
+
+      <span>
+        Vintage Story Mod
+      </span>
+
     </div>
+
   </footer>
+
+
+  <!-- CONFIGURATION -->
+  <script src="config.js"></script>
+
+  <!-- PAGE LOGIC -->
+  <script src="script.js"></script>
+
 </body>
+
 </html>
