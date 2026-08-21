@@ -21,7 +21,7 @@
       "game:crop:licorice": "#B28864"
     },
     "ore": {
-      "game:ore:uranium": "#FFFFFF",
+      "game:ore:uranium": "#94B21E",
       "game:ore:copper": "#B87333",
       "game:ore:quartz_nativegold": "#F0C10C",
       "game:ore:lead": "#4A4E54",
@@ -46,7 +46,8 @@
       "game:ore:lignite": "#483A30",
       "game:ore:lapislazuli": "#2D669F",
       "game:ore:olivine": "#83B839",
-      "game:ore:quartz": "#E4E5E0"
+      "game:ore:quartz": "#E4E5E0",
+      "game:ore:galena_nativesilver": "#A7A7A7"
     },
     "other": {
       "game:meteorite": "#8B4513",
@@ -67,8 +68,10 @@
       "game:rawclay|type=fire": "#FFFFFF",
       "game:soil": "#4B0082",
       "game:peat": "#D2691E",
-      "game:wildbeehive|type=medium": "#FFFFFF",
-      "game:skep|type=populated": "#FFFFFF"
+      "game:wildbeehive|type=medium": "#FFD300",
+      "game:skep|type=populated": "#E7B900",
+      "game:lootvessel": "#333333",
+      "game:firepit": "#FF4600"
     },
     "tree": {
       "game:tree:pinkapple": "#FE7BA3",
@@ -100,7 +103,10 @@
     },
     "other": {
       "game:bear": "#602B18",
-      "game:boat": "#FFD700"
+      "game:boat": "#8E7149",
+      "elephantidae:elephantidae": "#BDBDBD",
+      "game:pig": "#4B4B4B",
+      "game:sheep": "#AD8E61"
     }
   }
 }
