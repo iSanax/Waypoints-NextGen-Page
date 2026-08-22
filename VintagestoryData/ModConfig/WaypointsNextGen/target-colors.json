@@ -11,7 +11,7 @@
       "game:crop:rice": "#F0EBD7",
       "game:crop:soybean": "#EED390",
       "game:crop:cabbage": "#AACA40",
-      "game:crop:pumpkin": "#FFFFFF",
+      "game:crop:pumpkin": "#FCA411",
       "game:crop:pineapple": "#F0BD2A",
       "game:crop:cassava": "#945D32",
       "game:crop:amaranth": "#B2084E",
@@ -71,7 +71,14 @@
       "game:wildbeehive|type=medium": "#FFD300",
       "game:skep|type=populated": "#E7B900",
       "game:lootvessel": "#333333",
-      "game:firepit": "#FF4600"
+      "game:firepit": "#FF4600",
+      "game:crystal|type=rosequartz": "#FF8FAB",
+      "game:crystal|type=milkyquartz": "#FFFFFF",
+      "game:crystal|type=smokyquartz": "#BDBDBD",
+      "game:crystal|type=amethyst": "#CD71DD",
+      "game:crystal|type=olivine": "#6BC52F",
+      "game:termitemound|rock=peridotite": "#E5C9AA",
+      "game:skep|type=empty": "#E7B900"
     },
     "tree": {
       "game:tree:pinkapple": "#FE7BA3",
@@ -102,11 +109,19 @@
       "game:trader:treasurehunter": "#FFC700"
     },
     "other": {
-      "game:bear": "#602B18",
+      "game:bear": "#582411",
       "game:boat": "#8E7149",
-      "elephantidae:elephantidae": "#BDBDBD",
-      "game:pig": "#4B4B4B",
-      "game:sheep": "#AD8E61"
+      "elephantidae:elephantidae": "#60554D",
+      "game:pig": "#5B534B",
+      "game:sheep": "#564832",
+      "game:wolf": "#72706C",
+      "game:raccoon": "#5E534C",
+      "game:tameddeer": "#524233",
+      "game:deer": "#4E3C2E",
+      "game:hyena": "#4B3927",
+      "game:chicken": "#5A3410",
+      "game:hare": "#2E2011",
+      "game:fox": "#833800"
     }
   }
 }
