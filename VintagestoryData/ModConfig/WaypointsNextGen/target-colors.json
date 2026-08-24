@@ -49,36 +49,31 @@
       "game:ore:quartz": "#E4E5E0",
       "game:ore:galena_nativesilver": "#A7A7A7"
     },
-    "other": {
-      "game:meteorite": "#8B4513",
-      "game:fruitingbush|type=strawberry": "#EF2D1A",
-      "game:fruitingbush|type=whitecurrant": "#D4AB81",
-      "game:fruitingbush|type=redcurrant": "#C61E18",
-      "game:fruitingbush|type=raspberry": "#D72444",
-      "game:fruitingbush|type=blackcurrant": "#5F6063",
-      "game:fruitingbush|type=blackberry": "#223649",
-      "game:fruitingbush|type=cranberry": "#CC2D31",
-      "game:fruitingbush|type=cloudberry": "#EA5E10",
-      "game:fruitingbush|type=blueberry": "#4F6E9F",
-      "game:fruitingbush|type=beautyberry": "#B744CB",
-      "game:tallplant|type=tule": "#7C9E36",
-      "game:tallplant|type=coopersreed": "#AC6D46",
-      "game:rawclay|type=blue": "#FFFFFF",
-      "game:rawclay|type=red": "#FFFFFF",
-      "game:rawclay|type=fire": "#FFFFFF",
-      "game:soil": "#4B0082",
-      "game:peat": "#D2691E",
-      "game:wildbeehive|type=medium": "#FFD300",
+    "rawclay": {
+      "game:rawclay|type=blue": "#2979FF",
+      "game:rawclay|type=red": "#FF3B30",
+      "game:rawclay|type=fire": "#BFA47F"
+    },
+    "skep": {
       "game:skep|type=populated": "#E7B900",
-      "game:lootvessel": "#333333",
-      "game:firepit": "#FF4600",
+      "game:skep|type=empty": "#E7B900"
+    },
+    "crystal": {
       "game:crystal|type=rosequartz": "#FF8FAB",
       "game:crystal|type=milkyquartz": "#FFFFFF",
-      "game:crystal|type=smokyquartz": "#BDBDBD",
+      "game:crystal|type=smokyquartz": "#7C7C7C",
       "game:crystal|type=amethyst": "#CD71DD",
-      "game:crystal|type=olivine": "#6BC52F",
-      "game:termitemound|rock=peridotite": "#E5C9AA",
-      "game:skep|type=empty": "#E7B900"
+      "game:crystal|type=olivine": "#6BC52F"
+    },
+    "tallplant": {
+      "game:tallplant|type=tule": "#7C9E36",
+      "game:tallplant|type=coopersreed": "#AC6D46"
+    },
+    "wildbeehive": {
+      "game:wildbeehive|type=medium": "#FFD300"
+    },
+    "termitemound": {
+      "game:termitemound|rock=peridotite": "#E5C9AA"
     },
     "tree": {
       "game:tree:pinkapple": "#FE7BA3",
@@ -93,7 +88,37 @@
       "game:tree:breadfruit": "#E6E664",
       "game:tree:pomegranate": "#FA3F33",
       "game:tree:lychee": "#FA5B58",
-      "game:tree:pine": "#FFFFFF"
+      "game:tree:pine": "#FFFFFF",
+      "game:tree:oak": "#795548"
+    },
+    "fruitingbush": {
+      "game:fruitingbush|type=strawberry": "#EF2D1A",
+      "game:fruitingbush|type=whitecurrant": "#D4AB81",
+      "game:fruitingbush|type=redcurrant": "#C61E18",
+      "game:fruitingbush|type=raspberry": "#D72444",
+      "game:fruitingbush|type=blackcurrant": "#292929",
+      "game:fruitingbush|type=blackberry": "#223649",
+      "game:fruitingbush|type=cranberry": "#CC2D31",
+      "game:fruitingbush|type=cloudberry": "#EA5E10",
+      "game:fruitingbush|type=blueberry": "#4F6E9F",
+      "game:fruitingbush|type=beautyberry": "#B744CB"
+    },
+    "other": {
+      "game:meteorite": "#8B4513",
+      "game:soil": "#4B0082",
+      "game:peat": "#D2691E",
+      "game:lootvessel": "#333333",
+      "game:firepit": "#FF4600",
+      "game:mushroom": "#00C853",
+      "game:clutter": "#FFEA00",
+      "game:tallgrass": "#FFFFFF",
+      "game:microblock": "#FFFFFF"
+    },
+    "mushroom": {
+      "game:mushroom:edible_non_psychedelic": "#0AA349",
+      "game:mushroom:poisonous_non_psychedelic": "#E12D2D",
+      "game:mushroom:edible_psychedelic": "#C08410",
+      "game:mushroom:poisonous_psychedelic": "#EF00A3"
     }
   },
   "entities": {
@@ -109,9 +134,6 @@
       "game:trader:treasurehunter": "#FFC700"
     },
     "other": {
-      "game:bear": "#582411",
-      "game:boat": "#8E7149",
-      "elephantidae:elephantidae": "#60554D",
       "game:pig": "#5B534B",
       "game:sheep": "#564832",
       "game:wolf": "#72706C",
@@ -121,7 +143,15 @@
       "game:hyena": "#4B3927",
       "game:chicken": "#5A3410",
       "game:hare": "#2E2011",
-      "game:fox": "#833800"
+      "game:boat": "#795548"
+    },
+    "fox": {
+      "game:fox:red": "#BA5000",
+      "game:fox:arctic": "#FFFFFF"
+    },
+    "bear": {
+      "game:bear:black": "#1C1A19",
+      "game:bear:polar": "#FFFFFF"
     }
   }
 }
