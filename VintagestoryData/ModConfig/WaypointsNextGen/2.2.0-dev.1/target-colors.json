@@ -4,92 +4,92 @@
       "game:crop:amaranth": {
         "name": "Amaranth",
         "icon": "amaranth",
-        "color": "#FFB300"
+        "color": "#B2084E"
       },
       "game:crop:cabbage": {
         "name": "Cabbage",
         "icon": "cabbage",
-        "color": "#FFB300"
+        "color": "#AACA40"
       },
       "game:crop:carrot": {
         "name": "Carrot",
         "icon": "carrot",
-        "color": "#FFB300"
+        "color": "#FB7E0F"
       },
       "game:crop:cassava": {
         "name": "Cassava",
         "icon": "cassava",
-        "color": "#FFB300"
+        "color": "#945D32"
       },
       "game:crop:fennel": {
         "name": "Fennel",
         "icon": "fennel",
-        "color": "#FFB300"
+        "color": "#649039"
       },
       "game:crop:flax": {
         "name": "Flax",
         "icon": "flax",
-        "color": "#FFB300"
+        "color": "#A9B0F4"
       },
       "game:crop:licorice": {
         "name": "Licorice plant",
         "icon": "licorice",
-        "color": "#FFB300"
+        "color": "#B28864"
       },
       "game:crop:onion": {
         "name": "Onion",
         "icon": "onion",
-        "color": "#FFB300"
+        "color": "#FC912B"
       },
       "game:crop:parsnip": {
         "name": "Parsnip",
         "icon": "parsnip",
-        "color": "#FFB300"
+        "color": "#DCCCB0"
       },
       "game:crop:peanut": {
         "name": "Peanut",
         "icon": "peanut",
-        "color": "#FFB300"
+        "color": "#CF8F3B"
       },
       "game:crop:pineapple": {
         "name": "Pineapple",
         "icon": "pineapple",
-        "color": "#FFB300"
+        "color": "#F0BD2A"
       },
       "game:crop:pumpkin": {
         "name": "Growing pumpkin plant",
         "icon": "pumpkin",
-        "color": "#FFB300"
+        "color": "#FCA411"
       },
       "game:crop:rice": {
         "name": "Rice",
         "icon": "rice",
-        "color": "#FFB300"
+        "color": "#F0EBD7"
       },
       "game:crop:rye": {
         "name": "Rye",
         "icon": "rye",
-        "color": "#FFB300"
+        "color": "#BCA06D"
       },
       "game:crop:soybean": {
         "name": "Soybean",
         "icon": "soybean",
-        "color": "#FFB300"
+        "color": "#EED390"
       },
       "game:crop:spelt": {
         "name": "Spelt",
         "icon": "spelt",
-        "color": "#FFB300"
+        "color": "#E1AF7B"
       },
       "game:crop:sunflower": {
         "name": "Sunflower",
         "icon": "sunflower",
-        "color": "#FFB300"
+        "color": "#F7E11F"
       },
       "game:crop:turnip": {
         "name": "Turnip",
         "icon": "turnip",
-        "color": "#FFB300"
+        "color": "#AF2D72"
       }
     },
     "crystal": {
@@ -97,23 +97,23 @@
       "targets": {
         "game:crystal|type=amethyst": {
           "name": "Large amethyst crystal",
-          "color": "#C391FF"
+          "color": "#CD71DD"
         },
         "game:crystal|type=milkyquartz": {
           "name": "Large milky quartz crystal",
-          "color": "#F3F3F3"
+          "color": "#FFFFFF"
         },
         "game:crystal|type=olivine": {
           "name": "Large olivine crystal",
-          "color": "#5AFF3D"
+          "color": "#6BC52F"
         },
         "game:crystal|type=rosequartz": {
           "name": "Large rose quartz crystal",
-          "color": "#FFB4C7"
+          "color": "#FF8FAB"
         },
         "game:crystal|type=smokyquartz": {
           "name": "Large smoky quartz crystal",
-          "color": "#AAA5A5"
+          "color": "#7C7C7C"
         }
       }
     },
@@ -121,52 +121,52 @@
       "game:fruitingbush|type=beautyberry": {
         "name": "Wild beautyberry bush",
         "icon": "beautyberry",
-        "color": "#FFB300"
+        "color": "#B744CB"
       },
       "game:fruitingbush|type=blackberry": {
         "name": "Wild blackberry bush",
         "icon": "blackberry",
-        "color": "#FFB300"
+        "color": "#223649"
       },
       "game:fruitingbush|type=blackcurrant": {
         "name": "Wild blackcurrant bush",
         "icon": "currant",
-        "color": "#FFB300"
+        "color": "#292929"
       },
       "game:fruitingbush|type=blueberry": {
         "name": "Wild blueberry bush",
         "icon": "blueberry",
-        "color": "#FFB300"
+        "color": "#4F6E9F"
       },
       "game:fruitingbush|type=cloudberry": {
         "name": "Wild cloudberry bush",
         "icon": "cloudberry",
-        "color": "#FF8FAB"
+        "color": "#EA5E10"
       },
       "game:fruitingbush|type=cranberry": {
         "name": "Wild cranberry bush",
         "icon": "cranberry",
-        "color": "#FFB300"
+        "color": "#CC2D31"
       },
       "game:fruitingbush|type=raspberry": {
         "name": "Wild raspberry bush",
         "icon": "raspberry",
-        "color": "#FFB300"
+        "color": "#D72444"
       },
       "game:fruitingbush|type=redcurrant": {
         "name": "Wild redcurrant bush",
         "icon": "currant",
-        "color": "#FFB300"
+        "color": "#C61E18"
       },
       "game:fruitingbush|type=strawberry": {
         "name": "Wild strawberry plants",
         "icon": "strawberry",
-        "color": "#FFB300"
+        "color": "#EF2D1A"
       },
       "game:fruitingbush|type=whitecurrant": {
         "name": "Wild whitecurrant bush",
         "icon": "currant",
-        "color": "#FFB300"
+        "color": "#D4AB81"
       }
     },
     "mushroom": {
@@ -175,40 +175,40 @@
           "game:mushroom:fieldmushroom": "Field mushroom"
         },
         "icon": "mushroom_edible_non_psychedelic",
-        "color": "#1B5E20"
+        "color": "#0AA349"
       },
       "game:mushroom:edible_psychedelic": {
         "names": {
           "game:mushroom:goldcap": "Gold cap"
         },
         "icon": "mushroom_edible_psychedelic",
-        "color": "#FF6D00"
+        "color": "#C08410"
       },
       "game:mushroom:poisonous_non_psychedelic": {
         "names": {
           "game:mushroom:pinkbonnet": "Pink bonnet"
         },
         "icon": "mushroom_poisonous_non_psychedelic",
-        "color": "#F1160A"
+        "color": "#E12D2D"
       },
       "game:mushroom:poisonous_psychedelic": {
         "names": {
           "game:mushroom:flyagaric": "Fly agaric"
         },
         "icon": "mushroom_poisonous_psychedelic",
-        "color": "#9B4AFF"
+        "color": "#EF00A3"
       }
     },
     "ore": {
       "game:ore:bismuthinite": {
         "name": "Bismuth ore",
         "icon": "bismuth",
-        "color": "#1B5E20"
+        "color": "#CE67A6"
       },
       "game:ore:borax": {
         "name": "Borax",
         "icon": "borax",
-        "color": "#1B5E20"
+        "color": "#BDC1C2"
       },
       "game:ore:cassiterite": {
         "name": "Tin ore",
@@ -218,17 +218,17 @@
       "game:ore:chromite": {
         "name": "Chromium ore",
         "icon": "chromium",
-        "color": "#1B5E20"
+        "color": "#FFFFFF"
       },
       "game:ore:cinnabar": {
         "name": "Cinnabar",
         "icon": "cinnabar",
-        "color": "#1B5E20"
+        "color": "#E95143"
       },
       "game:ore:fluorite": {
         "name": "Fluorite",
         "icon": "fluorite",
-        "color": "#1B5E20"
+        "color": "#FFFFFF"
       },
       "game:ore:ilmenite": {
         "name": "Titanium ore",
@@ -238,17 +238,17 @@
       "game:ore:iron": {
         "name": "Iron ore",
         "icon": "iron",
-        "color": "#1B5E20"
+        "color": "#8B4513"
       },
       "game:ore:lapislazuli": {
         "name": "Lapis lazuli",
         "icon": "aluminum",
-        "color": "#1B5E20"
+        "color": "#2D669F"
       },
       "game:ore:olivine": {
         "name": "Olivine",
         "icon": "silicon",
-        "color": "#00C853"
+        "color": "#83B839"
       },
       "game:ore:pentlandite": {
         "name": "Nickel ore",
@@ -258,17 +258,17 @@
       "game:ore:phosphorite": {
         "name": "Phosphorite",
         "icon": "phosphorus",
-        "color": "#1B5E20"
+        "color": "#FFFFFF"
       },
       "game:ore:quartz": {
         "name": "Quartz",
         "icon": "silicon",
-        "color": "#1B5E20"
+        "color": "#E4E5E0"
       },
       "game:ore:quartz_nativegold": {
         "name": "Gold ore",
         "icon": "gold",
-        "color": "#FFEA00"
+        "color": "#F0C10C"
       },
       "game:ore:rhodochrosite": {
         "name": "Manganese ore",
@@ -283,7 +283,7 @@
       "game:ore:sulfur": {
         "name": "Sulfur",
         "icon": "sulfur",
-        "color": "#1B5E20"
+        "color": "#F1DE3E"
       },
       "game:ore:sylvite": {
         "name": "Sylvite",
@@ -293,24 +293,24 @@
       "game:ore:uranium": {
         "name": "Uranium ore",
         "icon": "uranium",
-        "color": "#1B5E20"
+        "color": "#94B21E"
       }
     },
     "other": {
       "game:lootvessel": {
         "name": "Cracked vessel",
         "icon": "vessel",
-        "color": "#272727"
+        "color": "#333333"
       },
       "game:meteorite": {
         "name": "Meteoric Iron",
         "icon": "iron_meteoritic",
-        "color": "#1B5E20"
+        "color": "#8B4513"
       },
       "game:soil": {
         "name": "High fertility soil",
         "icon": "high_fertility_soil",
-        "color": "#4A148C"
+        "color": "#4B0082"
       }
     },
     "rawclay": {
@@ -318,11 +318,11 @@
       "targets": {
         "game:rawclay|type=blue": {
           "name": "Blue clay",
-          "color": "#40C4FF"
+          "color": "#2979FF"
         },
         "game:rawclay|type=fire": {
           "name": "Fire clay",
-          "color": "#D7B98E"
+          "color": "#BFA47F"
         },
         "game:rawclay|type=red": {
           "name": "Red clay",
@@ -339,62 +339,62 @@
       "game:tree:breadfruit": {
         "name": "Breadfruit tree cutting",
         "icon": "breadfruit",
-        "color": "#FFB300"
+        "color": "#E6E664"
       },
       "game:tree:cherry": {
         "name": "Cherry tree cutting",
         "icon": "cherry",
-        "color": "#FFB300"
+        "color": "#BF0B1D"
       },
       "game:tree:lychee": {
         "name": "Lychee tree cutting",
         "icon": "lychee",
-        "color": "#FFB300"
+        "color": "#FA5B58"
       },
       "game:tree:mango": {
         "name": "Mango tree cutting",
         "icon": "mango",
-        "color": "#FFB300"
+        "color": "#E78327"
       },
       "game:tree:olive": {
         "name": "Olive tree cutting",
         "icon": "olive",
-        "color": "#FFB300"
+        "color": "#ABB53C"
       },
       "game:tree:orange": {
         "name": "Orange tree cutting",
         "icon": "orange",
-        "color": "#FFB300"
+        "color": "#EF6D26"
       },
       "game:tree:peach": {
         "name": "Peach tree cutting",
         "icon": "peach",
-        "color": "#FFB300"
+        "color": "#E54A52"
       },
       "game:tree:pear": {
         "name": "Pear tree cutting",
         "icon": "pear",
-        "color": "#FFB300"
+        "color": "#C2CD51"
       },
       "game:tree:pine": {
         "name": "Pine",
         "icon": "pine",
-        "color": "#1B5E20"
+        "color": "#FF6D00"
       },
       "game:tree:pinkapple": {
         "name": "Pink apple tree cutting",
         "icon": "apple",
-        "color": "#FFB300"
+        "color": "#FE7BA3"
       },
       "game:tree:pomegranate": {
         "name": "Pomegranate tree cutting",
         "icon": "pomegranate",
-        "color": "#FFB300"
+        "color": "#FA3F33"
       },
       "game:tree:redapple": {
         "name": "Red apple tree cutting",
         "icon": "apple",
-        "color": "#FFB300"
+        "color": "#9B0A12"
       },
       "game:tree:resin": {
         "names": {
@@ -409,7 +409,7 @@
       "game:tree:yellowapple": {
         "name": "Yellow apple tree cutting",
         "icon": "apple",
-        "color": "#FFB300"
+        "color": "#F2D73B"
       }
     },
     "wildbeehive": {
@@ -428,11 +428,11 @@
       "targets": {
         "game:bear|type=black": {
           "name": "Black bear",
-          "color": "#FFB300"
+          "color": "#1C1A19"
         },
         "game:bear|type=polar": {
           "name": "Polar bear",
-          "color": "#FFB300"
+          "color": "#FFFFFF"
         }
       }
     },
@@ -445,7 +445,7 @@
         },
         "game:fox|type=red": {
           "name": "Fox",
-          "color": "#FF6D00"
+          "color": "#BA5000"
         }
       }
     },
@@ -453,12 +453,12 @@
       "game:chicken": {
         "name": "Chicken",
         "icon": "chicken",
-        "color": "#1B5E20"
+        "color": "#5A3410"
       },
       "game:deer": {
         "name": "Moose",
         "icon": "moose",
-        "color": "#FFB300"
+        "color": "#4E3C2E"
       },
       "game:goat": {
         "name": "Goat",
@@ -468,84 +468,84 @@
       "game:hare": {
         "name": "Hare",
         "icon": "hare",
-        "color": "#1B5E20"
+        "color": "#2E2011"
       },
       "game:hyena": {
         "name": "Hyena",
         "icon": "hyena",
-        "color": "#1B5E20"
+        "color": "#4B3927"
       },
       "game:pig": {
         "name": "Boar",
         "icon": "boar",
-        "color": "#1B5E20"
+        "color": "#5B534B"
       },
       "game:raccoon": {
         "name": "Raccoon",
         "icon": "raccoon",
-        "color": "#FFB300"
+        "color": "#5E534C"
       },
       "game:sheep": {
         "name": "Bighorn sheep",
         "icon": "bighorn_sheep",
-        "color": "#B71C1C"
+        "color": "#564832"
       },
       "game:tameddeer": {
         "name": "Deer",
         "icon": "deer",
-        "color": "#FFB300"
+        "color": "#524233"
       },
       "game:wolf": {
         "name": "Wolf",
         "icon": "wolf",
-        "color": "#FFB300"
+        "color": "#72706C"
       }
     },
     "trader": {
       "game:trader|type=agriculture": {
         "name": "Agriculture trader",
         "icon": "trader_agriculture",
-        "color": "#1B5E20"
+        "color": "#00BA2E"
       },
       "game:trader|type=artisan": {
         "name": "Artisan trader",
         "icon": "trader_artisan",
-        "color": "#1B5E20"
+        "color": "#A03255"
       },
       "game:trader|type=buildmaterials": {
         "name": "Building materials trader",
         "icon": "trader_buildmaterials",
-        "color": "#1B5E20"
+        "color": "#96503C"
       },
       "game:trader|type=clothing": {
         "name": "Clothing trader",
         "icon": "trader_clothing",
-        "color": "#1B5E20"
+        "color": "#FFFFFF"
       },
       "game:trader|type=commodities": {
         "name": "Commodities trader",
         "icon": "trader_commodities",
-        "color": "#1B5E20"
+        "color": "#6B6B6B"
       },
       "game:trader|type=furniture": {
         "name": "Furniture trader",
         "icon": "trader_furniture",
-        "color": "#1B5E20"
+        "color": "#FF7316"
       },
       "game:trader|type=luxuries": {
         "name": "Luxuries trader",
         "icon": "trader_luxuries",
-        "color": "#1B5E20"
+        "color": "#00E1FF"
       },
       "game:trader|type=survivalgoods": {
         "name": "Survival goods trader",
         "icon": "trader_survivalgoods",
-        "color": "#1B5E20"
+        "color": "#FF170F"
       },
       "game:trader|type=treasurehunter": {
         "name": "Treasure hunter trader",
         "icon": "trader_treasurehunter",
-        "color": "#1B5E20"
+        "color": "#FFC700"
       }
     }
   }
