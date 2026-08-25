@@ -362,6 +362,16 @@
       }
     },
     "tree": {
+      "game:tree:acacia": {
+        "name": "Acacia",
+        "icon": "acacia",
+        "color": "#1B5E20"
+      },
+      "game:tree:baldcypress": {
+        "name": "Bald cypress",
+        "icon": "bald_cypress",
+        "color": "#1B5E20"
+      },
       "game:tree:birch": {
         "name": "Birch",
         "icon": "birch",
@@ -377,6 +387,31 @@
         "icon": "cherry",
         "color": "#BF0B1D"
       },
+      "game:tree:crimsonkingmaple": {
+        "name": "Crimson maple",
+        "icon": "maple",
+        "color": "#1B5E20"
+      },
+      "game:tree:ebony": {
+        "name": "Ebony",
+        "icon": "ebony",
+        "color": "#1B5E20"
+      },
+      "game:tree:greenspirecypress": {
+        "name": "Mediterranean cypress",
+        "icon": "bald_cypress",
+        "color": "#1B5E20"
+      },
+      "game:tree:kapok": {
+        "name": "Kapok",
+        "icon": "kapok",
+        "color": "#1B5E20"
+      },
+      "game:tree:larch": {
+        "name": "Larch",
+        "icon": "larch",
+        "color": "#1B5E20"
+      },
       "game:tree:lychee": {
         "name": "Lychee tree cutting",
         "icon": "lychee",
@@ -386,6 +421,16 @@
         "name": "Mango tree cutting",
         "icon": "mango",
         "color": "#E78327"
+      },
+      "game:tree:maple": {
+        "name": "Maple",
+        "icon": "maple",
+        "color": "#1B5E20"
+      },
+      "game:tree:oak": {
+        "name": "Oak",
+        "icon": "oak",
+        "color": "#1B5E20"
       },
       "game:tree:olive": {
         "name": "Olive tree cutting",
@@ -410,7 +455,7 @@
       "game:tree:pine": {
         "name": "Pine",
         "icon": "pine",
-        "color": "#FF6D00"
+        "color": "#1B5E20"
       },
       "game:tree:pinkapple": {
         "name": "Pink apple tree cutting",
@@ -422,10 +467,20 @@
         "icon": "pomegranate",
         "color": "#FA3F33"
       },
+      "game:tree:purpleheart": {
+        "name": "Purpleheart",
+        "icon": "purpleheart",
+        "color": "#1B5E20"
+      },
       "game:tree:redapple": {
         "name": "Red apple tree cutting",
         "icon": "apple",
         "color": "#9B0A12"
+      },
+      "game:tree:redwood": {
+        "name": "Redwood",
+        "icon": "redwood",
+        "color": "#1B5E20"
       },
       "game:tree:resin": {
         "names": {
@@ -436,6 +491,11 @@
         },
         "icon": "resin",
         "color": "#FF6D00"
+      },
+      "game:tree:walnut": {
+        "name": "Walnut",
+        "icon": "walnut",
+        "color": "#1B5E20"
       },
       "game:tree:yellowapple": {
         "name": "Yellow apple tree cutting",
