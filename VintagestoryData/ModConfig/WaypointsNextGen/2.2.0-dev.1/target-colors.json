@@ -1,5 +1,16 @@
 {
   "blocks": {
+    "coal": {
+      "game:ore:coal": {
+        "names": {
+          "game:ore:anthracite": "Anthracite",
+          "game:ore:bituminouscoal": "Black coal",
+          "game:ore:lignite": "Brown coal"
+        },
+        "icon": "coal",
+        "color": "#080504"
+      }
+    },
     "crop": {
       "game:crop:amaranth": {
         "name": "Amaranth",
@@ -225,10 +236,20 @@
         "icon": "cinnabar",
         "color": "#E95143"
       },
+      "game:ore:copper": {
+        "name": "Copper ore",
+        "icon": "copper",
+        "color": "#B87333"
+      },
       "game:ore:fluorite": {
         "name": "Fluorite",
         "icon": "fluorite",
         "color": "#FFFFFF"
+      },
+      "game:ore:galena": {
+        "name": "Lead ore",
+        "icon": "lead",
+        "color": "#4A4E54"
       },
       "game:ore:ilmenite": {
         "name": "Titanium ore",
@@ -275,6 +296,11 @@
         "icon": "manganese",
         "color": "#1B5E20"
       },
+      "game:ore:silver": {
+        "name": "Native silver ore",
+        "icon": "silver",
+        "color": "#C6C6C6"
+      },
       "game:ore:sphalerite": {
         "name": "Zinc ore",
         "icon": "zinc",
@@ -288,7 +314,7 @@
       "game:ore:sylvite": {
         "name": "Sylvite",
         "icon": "potassium",
-        "color": "#1B5E20"
+        "color": "#F5F5DC"
       },
       "game:ore:uranium": {
         "name": "Uranium ore",
@@ -306,6 +332,11 @@
         "name": "Meteoric Iron",
         "icon": "iron_meteoritic",
         "color": "#8B4513"
+      },
+      "game:rock": {
+        "name": "Halite rock",
+        "icon": "sodium",
+        "color": "#FFFFFF"
       },
       "game:soil": {
         "name": "High fertility soil",
