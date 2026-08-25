@@ -47,7 +47,8 @@
       "game:ore:lapislazuli": "#2D669F",
       "game:ore:olivine": "#83B839",
       "game:ore:quartz": "#E4E5E0",
-      "game:ore:galena_nativesilver": "#A7A7A7"
+      "game:ore:galena_nativesilver": "#A7A7A7",
+      "game:ore:silicon": "#FFFFFF"
     },
     "rawclay": {
       "game:rawclay|type=blue": "#2979FF",
@@ -88,7 +89,7 @@
       "game:tree:breadfruit": "#E6E664",
       "game:tree:pomegranate": "#FA3F33",
       "game:tree:lychee": "#FA5B58",
-      "game:tree:pine": "#FFFFFF",
+      "game:tree:pine": "#FF6D00",
       "game:tree:oak": "#795548"
     },
     "fruitingbush": {
@@ -107,18 +108,19 @@
       "game:meteorite": "#8B4513",
       "game:soil": "#4B0082",
       "game:peat": "#D2691E",
+      "terrainslabs:peat": "#D2691E",
       "game:lootvessel": "#333333",
       "game:firepit": "#FF4600",
-      "game:mushroom": "#00C853",
-      "game:clutter": "#FFEA00",
-      "game:tallgrass": "#FFFFFF",
-      "game:microblock": "#FFFFFF"
+      "game:clutter": "#FFEA00"
     },
     "mushroom": {
       "game:mushroom:edible_non_psychedelic": "#0AA349",
       "game:mushroom:poisonous_non_psychedelic": "#E12D2D",
       "game:mushroom:edible_psychedelic": "#C08410",
       "game:mushroom:poisonous_psychedelic": "#EF00A3"
+    },
+    "looseores": {
+      "game:looseores|rock=chalk": "#616161"
     }
   },
   "entities": {
