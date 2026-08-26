@@ -126,12 +126,12 @@
       "game:flower:catmint": {
         "name": "Catmint",
         "icon": "catmint",
-        "color": "#A14EEC"
+        "color": "#A488C0"
       },
       "game:flower:cornflower": {
         "name": "Cornflower",
         "icon": "cornflower",
-        "color": "#2979FF"
+        "color": "#7B7FDD"
       },
       "game:flower:cowparsley": {
         "name": "Cow parsley",
@@ -146,12 +146,12 @@
       "game:flower:edelweiss": {
         "name": "Edelweiss",
         "icon": "edelweiss",
-        "color": "#FFFFFF"
+        "color": "#EEECF9"
       },
       "game:flower:forgetmenot": {
         "name": "Forget me not",
         "icon": "forget_me_not",
-        "color": "#B9DAD4"
+        "color": "#6CB5F4"
       },
       "game:flower:goldenpoppy": {
         "name": "Golden poppy",
@@ -161,7 +161,7 @@
       "game:flower:heather": {
         "name": "Heather",
         "icon": "heather",
-        "color": "#F708EA"
+        "color": "#D93F87"
       },
       "game:flower:horsetail": {
         "name": "Horsetail",
@@ -181,7 +181,7 @@
       "game:flower:orangemallow": {
         "name": "Orange mallow",
         "icon": "orange_mallow",
-        "color": "#F06E0D"
+        "color": "#FC910B"
       },
       "game:flower:redtopgrass": {
         "name": "Redtop grass",
@@ -191,12 +191,12 @@
       "game:flower:westerngorse": {
         "name": "Dwarf furze",
         "icon": "dwarf_furze",
-        "color": "#F3CE0B"
+        "color": "#DFC50C"
       },
       "game:flower:wilddaisy": {
         "name": "Wild daisy",
         "icon": "wild_daisy",
-        "color": "#FFFFFF"
+        "color": "#EAEBE4"
       },
       "game:flower:woad": {
         "name": "Woad",
@@ -424,7 +424,7 @@
       "game:ore:cassiterite": {
         "name": "Tin ore",
         "icon": "tin",
-        "color": "#1B5E20"
+        "color": "#A5A9B4"
       },
       "game:ore:chromite": {
         "name": "Chromium ore",
@@ -449,7 +449,7 @@
       "game:ore:ilmenite": {
         "name": "Titanium ore",
         "icon": "titanium",
-        "color": "#1B5E20"
+        "color": "#8791A0"
       },
       "game:ore:lapislazuli": {
         "name": "Lapis lazuli",
@@ -464,7 +464,7 @@
       "game:ore:pentlandite": {
         "name": "Nickel ore",
         "icon": "nickel",
-        "color": "#1B5E20"
+        "color": "#B8860B"
       },
       "game:ore:phosphorite": {
         "name": "Phosphorite",
@@ -489,7 +489,7 @@
       "game:ore:sphalerite": {
         "name": "Zinc ore",
         "icon": "zinc",
-        "color": "#1B5E20"
+        "color": "#437999"
       },
       "game:ore:sulfur": {
         "name": "Sulfur",
@@ -511,15 +511,15 @@
         "targets": {
           "game:ore:anthracite": {
             "name": "Anthracite",
-            "color": "#7F7F7F"
+            "color": "#1C2A2B"
           },
           "game:ore:bituminouscoal": {
             "name": "Black coal",
-            "color": "#080504"
+            "color": "#7E7E7C"
           },
           "game:ore:lignite": {
             "name": "Brown coal",
-            "color": "#573528"
+            "color": "#483A30"
           }
         }
       },
@@ -732,7 +732,7 @@
           "game:log:resinharvested:ud:pine": "Resin (Pine)"
         },
         "icon": "resin",
-        "color": "#C95600"
+        "color": "#FF8C00"
       },
       "game:tree:walnut": {
         "name": "Walnut",
