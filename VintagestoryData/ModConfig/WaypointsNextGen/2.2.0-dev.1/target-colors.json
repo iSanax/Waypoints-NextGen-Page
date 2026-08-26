@@ -203,6 +203,75 @@
         "icon": "woad",
         "color": "#EDD508"
       },
+      "croton": {
+        "icon": "croton",
+        "targets": {
+          "game:flower:croton-medium-crimson-brown-green": {
+            "name": "Medium croton",
+            "color": "#793436"
+          },
+          "game:flower:croton-medium-crimson-green": {
+            "name": "Medium croton",
+            "color": "#30480C"
+          },
+          "game:flower:croton-medium-crimson-orange": {
+            "name": "Medium croton",
+            "color": "#BD6511"
+          },
+          "game:flower:croton-medium-darkgreen-gold": {
+            "name": "Medium croton",
+            "color": "#EDCD2F"
+          },
+          "game:flower:croton-medium-darkgreen-gold-crimson": {
+            "name": "Medium croton",
+            "color": "#ED8825"
+          },
+          "game:flower:croton-medium-green-orange": {
+            "name": "Medium croton",
+            "color": "#91AA3E"
+          },
+          "game:flower:croton-medium-lemongreen": {
+            "name": "Medium croton",
+            "color": "#B9F30F"
+          },
+          "game:flower:croton-medium-lemongreen-crimson": {
+            "name": "Medium croton",
+            "color": "#EEF30F"
+          },
+          "game:flower:croton-small-crimson-brown-green": {
+            "name": "Small croton",
+            "color": "#793436"
+          },
+          "game:flower:croton-small-crimson-green": {
+            "name": "Small croton",
+            "color": "#30480C"
+          },
+          "game:flower:croton-small-crimson-orange": {
+            "name": "Small croton",
+            "color": "#BD6511"
+          },
+          "game:flower:croton-small-darkgreen-gold": {
+            "name": "Small croton",
+            "color": "#EDCD2F"
+          },
+          "game:flower:croton-small-darkgreen-gold-crimson": {
+            "name": "Small croton",
+            "color": "#ED8825"
+          },
+          "game:flower:croton-small-green-orange": {
+            "name": "Small croton",
+            "color": "#91AA3E"
+          },
+          "game:flower:croton-small-lemongreen": {
+            "name": "Small croton",
+            "color": "#B9F30F"
+          },
+          "game:flower:croton-small-lemongreen-crimson": {
+            "name": "Small croton",
+            "color": "#EEF30F"
+          }
+        }
+      },
       "ghostpipe": {
         "icon": "ghost_pipe",
         "targets": {
