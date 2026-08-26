@@ -118,6 +118,11 @@
       }
     },
     "flower": {
+      "game:flower:bluebell": {
+        "name": "Bluebell",
+        "icon": "bluebell",
+        "color": "#5749BF"
+      },
       "game:flower:catmint": {
         "name": "Catmint",
         "icon": "catmint",
@@ -133,6 +138,11 @@
         "icon": "cow_parsley",
         "color": "#EAE497"
       },
+      "game:flower:daffodil": {
+        "name": "Daffodil",
+        "icon": "daffodil",
+        "color": "#D6CA27"
+      },
       "game:flower:edelweiss": {
         "name": "Edelweiss",
         "icon": "edelweiss",
@@ -143,25 +153,55 @@
         "icon": "forget_me_not",
         "color": "#B9DAD4"
       },
+      "game:flower:goldenpoppy": {
+        "name": "Golden poppy",
+        "icon": "golden_poppy",
+        "color": "#FB9F0C"
+      },
       "game:flower:heather": {
         "name": "Heather",
         "icon": "heather",
         "color": "#F708EA"
+      },
+      "game:flower:horsetail": {
+        "name": "Horsetail",
+        "icon": "horsetail",
+        "color": "#73B660"
+      },
+      "game:flower:lilyofthevalley": {
+        "name": "Lily of the valley",
+        "icon": "lily_of_the_valley",
+        "color": "#E9EBF6"
+      },
+      "game:flower:mugwort": {
+        "name": "Mugwort",
+        "icon": "mugwort",
+        "color": "#8FA360"
       },
       "game:flower:orangemallow": {
         "name": "Orange mallow",
         "icon": "orange_mallow",
         "color": "#F06E0D"
       },
+      "game:flower:redtopgrass": {
+        "name": "Redtop grass",
+        "icon": "redtop_grass",
+        "color": "#AD966B"
+      },
       "game:flower:westerngorse": {
         "name": "Dwarf furze",
-        "icon": "daffodil",
+        "icon": "dwarf_furze",
         "color": "#F3CE0B"
       },
       "game:flower:wilddaisy": {
         "name": "Wild daisy",
         "icon": "wild_daisy",
         "color": "#FFFFFF"
+      },
+      "game:flower:woad": {
+        "name": "Woad",
+        "icon": "woad",
+        "color": "#EDD508"
       },
       "lupine": {
         "icon": "lupine",
