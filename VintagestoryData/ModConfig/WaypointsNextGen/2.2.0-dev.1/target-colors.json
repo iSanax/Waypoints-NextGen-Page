@@ -44,7 +44,7 @@
       "game:crop:parsnip": {
         "name": "Parsnip",
         "icon": "parsnip",
-        "color": "#DCCCB0"
+        "color": "#A28A5F"
       },
       "game:crop:peanut": {
         "name": "Peanut",
@@ -59,7 +59,7 @@
       "game:crop:pumpkin": {
         "name": "Growing pumpkin plant",
         "icon": "pumpkin",
-        "color": "#FCA411"
+        "color": "#C25E0C"
       },
       "game:crop:rice": {
         "name": "Rice",
@@ -114,6 +114,78 @@
         "game:crystal|type=smokyquartz": {
           "name": "Large smoky quartz crystal",
           "color": "#7C7C7C"
+        }
+      }
+    },
+    "flower": {
+      "game:flower:catmint": {
+        "name": "Catmint",
+        "icon": "catmint",
+        "color": "#A14EEC"
+      },
+      "game:flower:cornflower": {
+        "name": "Cornflower",
+        "icon": "cornflower",
+        "color": "#2979FF"
+      },
+      "game:flower:cowparsley": {
+        "name": "Cow parsley",
+        "icon": "cow_parsley",
+        "color": "#EAE497"
+      },
+      "game:flower:edelweiss": {
+        "name": "Edelweiss",
+        "icon": "edelweiss",
+        "color": "#FFFFFF"
+      },
+      "game:flower:forgetmenot": {
+        "name": "Forget me not",
+        "icon": "forget_me_not",
+        "color": "#B9DAD4"
+      },
+      "game:flower:heather": {
+        "name": "Heather",
+        "icon": "heather",
+        "color": "#F708EA"
+      },
+      "game:flower:orangemallow": {
+        "name": "Orange mallow",
+        "icon": "orange_mallow",
+        "color": "#F06E0D"
+      },
+      "game:flower:westerngorse": {
+        "name": "Dwarf furze",
+        "icon": "daffodil",
+        "color": "#F3CE0B"
+      },
+      "game:flower:wilddaisy": {
+        "name": "Wild daisy",
+        "icon": "wild_daisy",
+        "color": "#FFFFFF"
+      },
+      "lupine": {
+        "icon": "lupine",
+        "targets": {
+          "game:flower:lupine-blue": {
+            "name": "Lupine",
+            "color": "#3E71FF"
+          },
+          "game:flower:lupine-orange": {
+            "name": "Lupine",
+            "color": "#F36D09"
+          },
+          "game:flower:lupine-purple": {
+            "name": "Lupine",
+            "color": "#AB4CFC"
+          },
+          "game:flower:lupine-red": {
+            "name": "Lupine",
+            "color": "#F10000"
+          },
+          "game:flower:lupine-white": {
+            "name": "Lupine",
+            "color": "#FFFFFF"
+          }
         }
       }
     },
@@ -547,6 +619,22 @@
           "name": "Polar bear",
           "color": "#FFFFFF"
         }
+      }
+    },
+    "fish": {
+      "game:fish-freshwater": {
+        "names": {
+          "game:fish-freshwater:catfish:blue": "Blue catfish"
+        },
+        "icon": "fish",
+        "color": "#28EBA3"
+      },
+      "game:fish-saltwater": {
+        "names": {
+          "game:fish-saltwater:wolf:bering": "Wolf fish"
+        },
+        "icon": "fish",
+        "color": "#3FB3E7"
       }
     },
     "fox": {
