@@ -203,6 +203,23 @@
         "icon": "woad",
         "color": "#EDD508"
       },
+      "ghostpipe": {
+        "icon": "ghost_pipe",
+        "targets": {
+          "game:flower:ghostpipepink": {
+            "name": "Ghost pipe",
+            "color": "#CEA793"
+          },
+          "game:flower:ghostpipered": {
+            "name": "Ghost pipe",
+            "color": "#AE7371"
+          },
+          "game:flower:ghostpipewhite": {
+            "name": "Ghost pipe",
+            "color": "#EFE8E0"
+          }
+        }
+      },
       "lupine": {
         "icon": "lupine",
         "targets": {
@@ -225,6 +242,19 @@
           "game:flower:lupine-white": {
             "name": "Lupine",
             "color": "#FFFFFF"
+          }
+        }
+      },
+      "rafflesia": {
+        "icon": "rafflesia",
+        "targets": {
+          "game:flower:rafflesia-brown": {
+            "name": "Brown Rafflesia",
+            "color": "#723829"
+          },
+          "game:flower:rafflesia-red": {
+            "name": "Red Rafflesia",
+            "color": "#B6361D"
           }
         }
       }
