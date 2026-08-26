@@ -1,16 +1,5 @@
 {
   "blocks": {
-    "coal": {
-      "game:ore:coal": {
-        "names": {
-          "game:ore:anthracite": "Anthracite",
-          "game:ore:bituminouscoal": "Black coal",
-          "game:ore:lignite": "Brown coal"
-        },
-        "icon": "coal",
-        "color": "#080504"
-      }
-    },
     "crop": {
       "game:crop:amaranth": {
         "name": "Amaranth",
@@ -236,11 +225,6 @@
         "icon": "cinnabar",
         "color": "#E95143"
       },
-      "game:ore:copper": {
-        "name": "Copper ore",
-        "icon": "copper",
-        "color": "#B87333"
-      },
       "game:ore:fluorite": {
         "name": "Fluorite",
         "icon": "fluorite",
@@ -255,11 +239,6 @@
         "name": "Titanium ore",
         "icon": "titanium",
         "color": "#1B5E20"
-      },
-      "game:ore:iron": {
-        "name": "Iron ore",
-        "icon": "iron",
-        "color": "#8B4513"
       },
       "game:ore:lapislazuli": {
         "name": "Lapis lazuli",
@@ -296,11 +275,6 @@
         "icon": "manganese",
         "color": "#1B5E20"
       },
-      "game:ore:silver": {
-        "name": "Native silver ore",
-        "icon": "silver",
-        "color": "#C6C6C6"
-      },
       "game:ore:sphalerite": {
         "name": "Zinc ore",
         "icon": "zinc",
@@ -320,6 +294,53 @@
         "name": "Uranium ore",
         "icon": "uranium",
         "color": "#94B21E"
+      },
+      "coal": {
+        "icon": "coal",
+        "targets": {
+          "game:ore:anthracite": {
+            "name": "Anthracite",
+            "color": "#7F7F7F"
+          },
+          "game:ore:bituminouscoal": {
+            "name": "Black coal",
+            "color": "#080504"
+          },
+          "game:ore:lignite": {
+            "name": "Brown coal",
+            "color": "#573528"
+          }
+        }
+      },
+      "iron": {
+        "icon": "iron",
+        "targets": {
+          "game:ore:hematite": {
+            "name": "Iron ore",
+            "color": "#ED0000"
+          },
+          "game:ore:limonite": {
+            "name": "Iron ore",
+            "color": "#FF6D00"
+          },
+          "game:ore:magnetite": {
+            "name": "Iron ore",
+            "color": "#080504"
+          }
+        }
+      },
+      "silver": {
+        "icon": "silver",
+        "targets": {
+          "game:ore:galena_nativesilver": {
+            "name": "Silver ore (Galena)",
+            "color": "#334E6F"
+          },
+          "game:ore:quartz_nativesilver": {
+            "name": "Native silver ore (Quartz)",
+            "color": "#686868"
+          }
+        }
       }
     },
     "other": {
@@ -338,10 +359,20 @@
         "icon": "sodium",
         "color": "#FFFFFF"
       },
+      "game:skep": {
+        "name": "Skep",
+        "icon": "apiary",
+        "color": "#FFEA00"
+      },
       "game:soil": {
         "name": "High fertility soil",
         "icon": "high_fertility_soil",
         "color": "#4B0082"
+      },
+      "game:wildbeehive": {
+        "name": "Wild beehive",
+        "icon": "bee",
+        "color": "#FFEA00"
       }
     },
     "rawclay": {
@@ -484,13 +515,13 @@
       },
       "game:tree:resin": {
         "names": {
-          "game:tree:resin:acacia": "Resin",
-          "game:tree:resin:pine": "Resin",
-          "game:tree:resinharvested:acacia": "Resin",
-          "game:tree:resinharvested:pine": "Resin"
+          "game:log:resin:ud:acacia": "Resin (Acacia)",
+          "game:log:resin:ud:pine": "Resin (Pine)",
+          "game:log:resinharvested:ud:acacia": "Resin (Acacia)",
+          "game:log:resinharvested:ud:pine": "Resin (Pine)"
         },
         "icon": "resin",
-        "color": "#FF6D00"
+        "color": "#C95600"
       },
       "game:tree:walnut": {
         "name": "Walnut",
@@ -501,15 +532,6 @@
         "name": "Yellow apple tree cutting",
         "icon": "apple",
         "color": "#F2D73B"
-      }
-    },
-    "wildbeehive": {
-      "game:wildbeehive": {
-        "names": {
-          "game:wildbeehive:birch": "Wild beehive in birch tree"
-        },
-        "icon": "bee",
-        "color": "#FFEA00"
       }
     }
   },
@@ -554,7 +576,7 @@
       "game:goat": {
         "name": "Goat",
         "icon": "goat",
-        "color": "#1B5E20"
+        "color": "#FFFFFF"
       },
       "game:hare": {
         "name": "Hare",
