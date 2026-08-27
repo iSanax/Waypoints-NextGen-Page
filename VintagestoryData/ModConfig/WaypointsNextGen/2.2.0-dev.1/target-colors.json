@@ -790,6 +790,18 @@
         }
       }
     },
+    "boat": {
+      "game:boat|type=raft": {
+        "name": "Raft",
+        "icon": "raft",
+        "color": "#F6A30B"
+      },
+      "game:boat|type=sailed": {
+        "name": "Sailboat",
+        "icon": "sailboat",
+        "color": "#EA1616"
+      }
+    },
     "fish": {
       "game:fish-freshwater": {
         "names": {
