@@ -1,365 +1,91 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Waypoints NextGen</title>
-
-  <meta
-    name="description"
-    content="Waypoints NextGen improves waypoint creation in Vintage Story."
-  >
-
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-  <header>
-    <div class="container nav">
-      <a class="brand" href="#">Waypoints NextGen</a>
-
-      <nav>
-        <a href="#features">Features</a>
-        <a href="#automatic">Automatic Waypoints</a>
-        <a href="#versions">Versions</a>
-        <a href="#compatibility">Compatibility</a>
-      </nav>
-    </div>
-  </header>
-
-
-  <main>
-
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero-grid">
-
-        <div>
-          <span class="eyebrow">Vintage Story Mod</span>
-
-          <h1>
-            Waypoints,<br>
-            made better.
-          </h1>
-
-          <p class="lead">
-            Waypoints NextGen improves waypoint creation with better controls,
-            expanded icon support and automatic target suggestions.
-          </p>
-
-          <div class="buttons">
-
-            <a
-              class="button primary"
-              href="#versions"
-            >
-              View Versions
-            </a>
-
-            <a
-              class="button"
-              href="#features"
-            >
-              Explore Features
-            </a>
-
-          </div>
-
-          <p class="version">
-            Development version:
-            <strong id="development-version-hero">
-              2.2.0-dev.x
-            </strong>
-          </p>
-        </div>
-
-
-        <div class="preview">
-
-          <div class="preview-title">
-            <span>◆</span>
-
-            <div>
-              <strong>Automatic Waypoint</strong>
-              <small>Target detected</small>
-            </div>
-
-            <kbd>V</kbd>
-          </div>
-
-          <div class="preview-row">
-            <span>Target</span>
-            <strong>Creature / Block</strong>
-          </div>
-
-          <div class="preview-row">
-            <span>Name</span>
-            <strong>Automatic</strong>
-          </div>
-
-          <div class="preview-row">
-            <span>Icon</span>
-            <strong>Best match</strong>
-          </div>
-
-          <div class="preview-row">
-            <span>Position</span>
-            <strong>Target position</strong>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- FEATURES -->
-    <section id="features">
-
-      <div class="container">
-
-        <span class="eyebrow">Features</span>
-
-        <h2>
-          More convenient waypoint management.
-        </h2>
-
-
-        <div class="cards">
-
-          <article>
-
-            <span class="number">01</span>
-
-            <h3>Expanded Icons</h3>
-
-            <p>
-              More waypoint icons and organized categories make locations
-              easier to recognize.
-            </p>
-
-          </article>
-
-
-          <article>
-
-            <span class="number">02</span>
-
-            <h3>Fast Creation</h3>
-
-            <p>
-              Quickly create a waypoint using a keyboard shortcut without
-              unnecessary steps.
-            </p>
-
-          </article>
-
-
-          <article>
-
-            <span class="number">03</span>
-
-            <h3>Automatic Suggestions</h3>
-
-            <p>
-              The mod can detect the target and suggest its name, icon and
-              position automatically.
-            </p>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- AUTOMATIC WAYPOINTS -->
-    <section id="automatic" class="dark-section">
-
-      <div class="container split">
-
-        <div>
-
-          <span class="eyebrow">
-            Experimental
-          </span>
-
-          <h2 id="experimental-title">
-            Automatic waypoint suggestions
-          </h2>
-
-          <!-- Generated from CONFIG.experimentalParagraphs -->
-          <div id="experimental-description"></div>
-
-        </div>
-
-        <div class="steps" id="experimental-steps"></div>
-
-      </div>
-
-    </section>
-
-
-    <!-- VERSIONS -->
-    <section id="versions">
-
-      <div class="container">
-
-        <span class="eyebrow">
-          Versions
-        </span>
-
-        <h2>
-          Choose your version.
-        </h2>
-
-
-        <div class="versions">
-
-          <!-- STABLE -->
-          <article>
-
-            <span class="badge">
-              Stable
-            </span>
-
-            <h3 id="stable-version">
-              2.1.x
-            </h3>
-
-            <p>
-              Recommended for normal gameplay where stability is the priority.
-            </p>
-
-            <a
-              id="stable-download"
-              class="button"
-              href="#"
-            >
-              Download Stable
-            </a>
-
-          </article>
-
-
-          <!-- DEVELOPMENT -->
-          <article class="dev">
-
-            <span class="badge">
-              Development
-            </span>
-
-            <h3 id="development-version">
-              2.2.0-dev.x
-            </h3>
-
-            <p>
-              Includes experimental automatic waypoint suggestions and
-              features currently being tested.
-            </p>
-
-            <a
-              id="development-download"
-              class="button primary"
-              href="#"
-            >
-              Download Development
-            </a>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- COMPATIBILITY -->
-    <section id="compatibility" class="dark-section">
-
-      <div class="container split">
-
-        <div>
-
-          <span class="eyebrow">
-            Compatibility
-          </span>
-
-          <h2>
-            Designed for modded content.
-          </h2>
-
-        </div>
-
-
-        <div>
-
-          <p>
-            Automatic waypoint suggestions use technical identifiers and
-            localization data provided by Vintage Story and installed mods.
-          </p>
-
-          <p>
-            The goal is to recognize modded creatures and blocks without
-            requiring individual configuration for every supported mod.
-          </p>
-
-          <p>
-            Compatibility will continue to improve as the automatic detection
-            system is developed.
-          </p>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- PROJECT -->
-    <section>
-
-      <div class="container">
-
-        <span class="eyebrow">
-          Project
-        </span>
-
-        <h2>
-          Waypoints NextGen
-        </h2>
-
-        <p class="lead">
-          A client-side Vintage Story mod focused on making waypoint creation
-          faster, easier and more useful while maintaining compatibility with
-          modded content.
-        </p>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
-  <footer>
-    <div class="container footer">
-      <span>
-        Waypoints NextGen
-      </span>
-      <span>
-        Vintage Story Mod
-      </span>
-    </div>
-  </footer>
-
-  <script src="config.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
+<div style="background: #2d251d; border: 1px solid #6d5942; border-radius: 8px; color: #f7eddd; padding: 26px 24px; margin-bottom: 14px; text-align: center; position: relative; min-height: 245px;">
+<p style="margin: 0 0 10px 0;"><span style="background: #d98324; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 12px; font-weight: bold; letter-spacing: 0.5px; padding: 5px 9px;"> VERSION 2.2.0-dev.1 </span></p>
+<h1 style="color: #ffffff; font-size: 34px; line-height: 1.15; margin: 0 0 10px 0;">Waypoints NextGen</h1>
+<p style="color: #eadac3; font-size: 18px; line-height: 1.55; margin: 0 auto 16px auto; max-width: 760px;">A clearer, faster and more personal waypoint experience for Vintage Story. Create useful map markers with a redesigned editor, more than 200 categorized icons, precise HEX colors and smart target suggestions.</p>
+<p style="margin: 0;"><span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">Client-side</span> <span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">200+ icons</span> <span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">New UI</span> <span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">Custom colors</span> <span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">Icon scale</span> <span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">Plug and play</span></p>
+<div style="position: absolute; right: 90px; top: 50%; transform: translateY(-50%); width: 250px; height: 250px; border-radius: 50%; overflow: hidden;"><img style="position: absolute; width: 116%; height: 116%; max-width: none; left: 50%; top: 50%; transform: translate(-50%, -50%); object-fit: cover;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/logo/logo.gif?raw=true" alt="Waypoints NextGen logo" /></div>
+</div>
+<div style="background: #f3eee5; border: 1px solid #d7c8b4; border-radius: 8px; color: #2c251e; padding: 20px 24px; margin-bottom: 14px;">
+<h2 style="color: #6f431b; margin: 0 0 12px 0;">Make every waypoint useful at a glance</h2>
+<p style="font-size: 16px; line-height: 1.6; margin: 0 0 12px 0;">Waypoints NextGen expands the vanilla waypoint system without replacing the map itself. It focuses on the parts you use most: creating a marker, choosing its appearance and recognizing it later among many other points on the map.</p>
+<ul style="line-height: 1.7; margin: 0; padding-left: 22px;">
+<li><strong>Redesigned Add and Edit windows</strong> with the same clear workflow in both views.</li>
+<li><strong>More than 200 SVG icons</strong> organized into categories for faster browsing.</li>
+<li><strong>Advanced color picker</strong> with HEX input, curated defaults and a persistent custom palette.</li>
+<li><strong>Sharper map rendering</strong> with high-resolution caching and configurable outlines.</li>
+<li><strong>Independent scaling</strong> for waypoint icons and the player marker.</li>
+<li><strong>Vanilla and modded icons together</strong> in one categorized picker.</li>
+</ul>
+</div>
+<div style="background: #e8f3e8; border: 1px solid #b9d5b9; border-radius: 8px; color: #223022; padding: 20px 24px; margin-bottom: 14px;">
+<p style="margin: 0 0 7px 0;"><span style="background: #477a49; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 12px; font-weight: bold; padding: 5px 9px;">NEW IN 2.2.0-dev.1</span> <span style="background: #9a6a23; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 12px; font-weight: bold; padding: 5px 9px;">EXPERIMENTAL</span></p>
+<h2 style="color: #315d33; margin: 0 0 10px 0;">Smart waypoint suggestions</h2>
+<p style="font-size: 16px; line-height: 1.6; margin: 0 0 12px 0;">Look at a block or creature and press <strong>V</strong>. The mod identifies the target using its technical data, fills the localized name and position, and reuses a profile you have already saved for the same kind of target. The first time a target is encountered, you remain in control of its icon and color.</p>
+<div style="background: #ffffff; border-left: 4px solid #477a49; border-radius: 4px; margin: 12px 0; padding: 12px 15px;">
+<p style="margin: 0 0 6px 0;"><strong>V</strong> - create a waypoint with automatic target suggestion.</p>
+<p style="margin: 0;"><strong>Shift + V</strong> - open the editor without automatic suggestion.</p>
+</div>
+<p style="line-height: 1.55; margin: 0;">Suggestions are designed to work with content from other mods without requiring a hard-coded list. Because the system is still experimental, unusual targets may need a manual correction before saving. It can be disabled in the mod settings.</p>
+</div>
+<div style="background: #1f1a16; border: 1px solid #57483a; border-radius: 8px; padding: 16px; margin-bottom: 14px; text-align: center;">
+<h3 style="color: #f2dfc2; margin: 0 0 12px 0;">Create a marker in seconds</h3>
+<img style="border: 1px solid #6f5b47; height: auto; margin: 4px; max-width: 100%;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/Waypoints%20NextGen%202.2.0-dev.1%20A.gif?raw=true" alt="Automatic waypoint suggestion for a targeted object" width="500" height="281" /> <img style="border: 1px solid #6f5b47; height: auto; margin: 4px; max-width: 100%;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/Waypoints%20NextGen%202.2.0-dev.1%20B.gif?raw=true" alt="Editing the suggested waypoint icon and color" width="500" height="281" /></div>
+<div style="background: #f3eee5; border: 1px solid #d7c8b4; border-radius: 8px; color: #2c251e; padding: 20px 24px; margin-bottom: 14px;">
+<h2 style="color: #6f431b; margin: 0 0 10px 0;">A waypoint editor built for choice</h2>
+<p style="font-size: 16px; line-height: 1.6; margin: 0 0 12px 0;">The icon and color pickers are part of the waypoint window, so the result is visible while you edit it. Categories keep large icon collections manageable, while the live preview shows the selected icon, fill color and outline before you save.</p>
+<ul style="line-height: 1.7; margin: 0; padding-left: 22px;">
+<li>The last icon category is remembered between sessions.</li>
+<li>Your recent manual waypoint name, icon and color are restored when no target profile applies.</li>
+<li>The custom color palette is saved when the window closes, avoiding unnecessary writes while editing.</li>
+<li>The last opened palette tab - <strong>Default</strong> or <strong>Custom</strong> - is remembered.</li>
+<li>HEX values are accepted without typing the <strong>#</strong> character.</li>
+</ul>
+</div>
+<div style="background: #e7edf3; border: 1px solid #bdcbd8; border-radius: 8px; color: #202a33; padding: 20px 24px; margin-bottom: 14px;">
+<h2 style="color: #315776; margin: 0 0 10px 0;">Readable icons at every map scale</h2>
+<p style="font-size: 16px; line-height: 1.6; margin: 0 0 14px 0;">High-resolution icon caching keeps SVG artwork crisp, while automatically generated underlays and outlines help light, dark and open-shaped icons remain visible over the world map. Outline thickness and icon scale can be adjusted independently, and the player marker can be kept above waypoint icons.</p>
+<div style="text-align: center;"><img style="border: 1px solid #879aab; height: auto; margin: 4px; max-width: 100%;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/wng_2.1.0_autoContrast.gif?raw=true" alt="Automatic icon contrast and outline on the world map" width="500" height="357" /> <img style="border: 1px solid #879aab; height: auto; margin: 4px; max-width: 100%;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/wng_2.1.0_playerIcon.gif?raw=true" alt="Player icon rendering above waypoint markers" width="635" height="357" /></div>
+</div>
+<div style="background: #fff3d9; border: 1px solid #e4c98e; border-radius: 8px; color: #332817; padding: 18px 24px; margin-bottom: 14px;">
+<h2 style="color: #81571a; margin: 0 0 10px 0;">No manual setup required</h2>
+<p style="font-size: 16px; line-height: 1.6; margin: 0;">Install the mod on the client and start the game. Waypoints NextGen automatically creates the required configuration files and default target profiles. If you change the saved target colors, icons or names, you can restore the original target profiles at any time from the mod settings. The animation below shows how to perform the reset.</p>
+<p style="font-size: 16px; line-height: 1.6; margin: 0;">&nbsp;</p>
+<p style="font-size: 16px; line-height: 1.6; margin: 0;"><img style="border: 1px solid #879aab; height: 381px; max-width: 100%; margin: 4px auto; display: block;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/create_waypint.gif?raw=true" alt="Plug and play" width="680" height="357" /></p>
+</div>
+<div style="background: #f3eee5; border: 1px solid #d7c8b4; border-radius: 8px; color: #2c251e; padding: 18px 24px; margin-bottom: 14px; text-align: center;">
+<div class="spoiler">
+<div class="spoiler-toggle" style="text-align: left;">Recent update highlights</div>
+<div class="spoiler-text">
+<h3 style="text-align: left;">2.2.0-dev.1</h3>
+<ul>
+<li style="text-align: left;">Added persistence for the most recently created waypoint, including its category, icon, and color.</li>
+<li style="text-align: left;">Improved custom color palette saving. The palette is now saved once when the window is closed instead of being written repeatedly.</li>
+<li style="text-align: left;">Added saving of the last active tab related to palettes.</li>
+<li style="text-align: left;">Added the experimental automatic waypoint suggestion system.</li>
+<li style="text-align: left;">Added configuration options for automatic waypoint suggestions.</li>
+<li style="text-align: left;">Added automatic creation of default configuration files when no configuration exists, providing a plug-and-play setup.</li>
+<li style="text-align: left;">Added shared target profiles, allowing related targets to use the same icon while keeping individual names and colors. For example, different clay types can share one icon while retaining their own colors and names.</li>
+<li style="text-align: left;">Added a new `Shift + V` hotkey for creating waypoints without automatic suggestions.</li>
+<li style="text-align: left;">Renamed the `trader_buildingmaterials` icon to `trader_buildmaterials`.</li>
+<li style="text-align: left;">Renamed the `trader_treasure` icon to `trader_treasurehunter`.</li>
+<li style="text-align: left;">Added a new logo.</li>
+</ul>
+<h3 style="text-align: left;">2.1.1</h3>
+<ul>
+<li style="text-align: left;">The icon `boat.svg` has been renamed to `sailboat.svg`.</li>
+<li style="text-align: left;">Update modinfo.json</li>
+<li style="text-align: left;">The icon `black_red_white_currant.svg` has been renamed to `currant.svg`; the configuration file for AutoMarker needs to be updated.</li>
+<li style="text-align: left;">Added hover feedback for the IconPicker.</li>
+<li style="text-align: left;">Added high-resolution waypoint icon caching for sharper rendering.</li>
+<li style="text-align: left;">Added automatic icon underlay generation using morphological closing, hole filling, and distance transforms for cleaner outlines.</li>
+<li style="text-align: left;">Improved rendering performance by caching generated icon textures and reusing them instead of regenerating them repeatedly.</li>
+<li style="text-align: left;">Adjusted player icon render order, with a new option to keep it above other waypoint icons.</li>
+<li style="text-align: left;">Separated waypoint icon size settings from the player icon size.</li>
+<li style="text-align: left;">Added remembering the last active category in the UI.</li>
+<li style="text-align: left;">Fixed icon sorting for the IconPicker.</li>
+<li style="text-align: left;">Fixed a visual error when adding new categories.</li>
+<li style="text-align: left;">Fixed a keyboard shortcut issue that added the letter 'V' to the text field.</li>
+</ul>
+</div>
+</div>
+</div>
