@@ -523,6 +523,19 @@
           }
         }
       },
+      "copper": {
+        "icon": "copper",
+        "targets": {
+          "game:ore:malachite": {
+            "name": "Copper ore",
+            "color": "#2C9B58"
+          },
+          "game:ore:nativecopper": {
+            "name": "Copper ore",
+            "color": "#D04B0A"
+          }
+        }
+      },
       "iron": {
         "icon": "iron",
         "targets": {
@@ -565,6 +578,11 @@
         "icon": "iron_meteoritic",
         "color": "#8B4513"
       },
+      "game:peat": {
+        "name": "Peat",
+        "icon": "peat",
+        "color": "#D2691E"
+      },
       "game:rock": {
         "name": "Halite rock",
         "icon": "sodium",
@@ -584,6 +602,18 @@
         "name": "Wild beehive",
         "icon": "bee",
         "color": "#FFEA00"
+      }
+    },
+    "plant": {
+      "game:plant:coopersreed": {
+        "name": "Cattails",
+        "icon": "reeds",
+        "color": "#AC6D46"
+      },
+      "game:plant:tule": {
+        "name": "Tule",
+        "icon": "tule",
+        "color": "#7C9E36"
       }
     },
     "rawclay": {
