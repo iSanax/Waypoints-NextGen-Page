@@ -1,5 +1,6 @@
 <div style="background: #2d251d; border: 1px solid #6d5942; border-radius: 8px; color: #f7eddd; padding: 26px 24px; margin-bottom: 14px; text-align: center; position: relative; min-height: 245px;">
-<p style="margin: 0 0 10px 0;"><span style="background: #d98324; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 12px; font-weight: bold; letter-spacing: 0.5px; padding: 5px 9px;"> VERSION 2.2.0-dev.1 </span></p>
+<p style="margin: 0 0 10px 0;"><span style="background: #d98324; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 12px; font-weight: bold; letter-spacing: 0.5px; padding: 5px 9px;">Coming soon</span></p>
+<p style="margin: 0 0 10px 0;"><span style="background: #d98324; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 12px; font-weight: bold; letter-spacing: 0.5px; padding: 5px 9px;">VERSION 2.2.0-dev.1</span></p>
 <h1 style="color: #ffffff; font-size: 34px; line-height: 1.15; margin: 0 0 10px 0;">Waypoints NextGen</h1>
 <p style="color: #eadac3; font-size: 18px; line-height: 1.55; margin: 0 auto 16px auto; max-width: 760px;">A clearer, faster and more personal waypoint experience for Vintage Story. Create useful map markers with a redesigned editor, more than 200 categorized icons, precise HEX colors and smart target suggestions.</p>
 <p style="margin: 0;"><span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">Client-side</span> <span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">200+ icons</span> <span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">New UI</span> <span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">Custom colors</span> <span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">Icon scale</span> <span style="background: #473a2d; border: 1px solid #7e674e; border-radius: 4px; color: #f7eddd; display: inline-block; margin: 3px; padding: 5px 9px;">Plug and play</span></p>
@@ -23,9 +24,12 @@
 <p style="font-size: 16px; line-height: 1.6; margin: 0 0 12px 0;">Look at a block or creature and press <strong>V</strong>. The mod identifies the target using its technical data, fills the localized name and position, and reuses a profile you have already saved for the same kind of target. The first time a target is encountered, you remain in control of its icon and color.</p>
 <div style="background: #ffffff; border-left: 4px solid #477a49; border-radius: 4px; margin: 12px 0; padding: 12px 15px;">
 <p style="margin: 0 0 6px 0;"><strong>V</strong> - create a waypoint with automatic target suggestion.</p>
-<p style="margin: 0;"><strong>Shift + V</strong> - open the editor without automatic suggestion.</p>
+<p style="margin: 0 0 6px 0;"><strong>Shift + V</strong> - open the editor without automatic suggestion.</p>
+<p style="margin: 0;"><strong>Ctrl + Shift + V</strong> - open the mod configuration window.</p>
 </div>
 <p style="line-height: 1.55; margin: 0;">Suggestions are designed to work with content from other mods without requiring a hard-coded list. Because the system is still experimental, unusual targets may need a manual correction before saving. It can be disabled in the mod settings.</p>
+<p style="line-height: 1.55; margin: 0;">&nbsp;</p>
+<p style="line-height: 1.55; margin: 0;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/other_mods.gif?raw=true" alt="" width="530" height="298" /></p>
 </div>
 <div style="background: #1f1a16; border: 1px solid #57483a; border-radius: 8px; padding: 16px; margin-bottom: 14px; text-align: center;">
 <h3 style="color: #f2dfc2; margin: 0 0 12px 0;">Create a marker in seconds</h3>
@@ -37,7 +41,7 @@
 <li>The last icon category is remembered between sessions.</li>
 <li>Your recent manual waypoint name, icon and color are restored when no target profile applies.</li>
 <li>The custom color palette is saved when the window closes, avoiding unnecessary writes while editing.</li>
-<li>The last opened palette tab - <strong>Default</strong> or <strong>Custom</strong> - is remembered.</li>
+<li>The last opened palette tab <strong>Default</strong> or <strong>Custom</strong> is remembered.</li>
 <li>HEX values are accepted without typing the <strong>#</strong> character.</li>
 </ul>
 </div>
@@ -66,6 +70,7 @@
 <li style="text-align: left;">Added automatic creation of default configuration files when no configuration exists, providing a plug-and-play setup.</li>
 <li style="text-align: left;">Added shared target profiles, allowing related targets to use the same icon while keeping individual names and colors. For example, different clay types can share one icon while retaining their own colors and names.</li>
 <li style="text-align: left;">Added a new `Shift + V` hotkey for creating waypoints without automatic suggestions.</li>
+<li style="text-align: left;">Added a new `Ctrl + Shift + V` hotkey for open UI waypoints config.</li>
 <li style="text-align: left;">Renamed the `trader_buildingmaterials` icon to `trader_buildmaterials`.</li>
 <li style="text-align: left;">Renamed the `trader_treasure` icon to `trader_treasurehunter`.</li>
 <li style="text-align: left;">Added a new logo.</li>
