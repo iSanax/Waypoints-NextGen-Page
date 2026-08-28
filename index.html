@@ -20,7 +20,9 @@
 </div>
 <div style="background: #e8f3e8; border: 1px solid #b9d5b9; border-radius: 8px; color: #223022; padding: 20px 24px; margin-bottom: 14px;">
 <p style="margin: 0 0 7px 0;"><span style="background: #477a49; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 12px; font-weight: bold; padding: 5px 9px;">NEW IN 2.2.0-dev.1</span> <span style="background: #9a6a23; border-radius: 4px; color: #ffffff; display: inline-block; font-size: 12px; font-weight: bold; padding: 5px 9px;">EXPERIMENTAL</span></p>
-<h2 style="color: #315d33; margin: 0 0 10px 0;">Smart waypoint suggestions</h2>
+<h2 style="color: #315d33; margin: 0 0 16px 0;">Smart waypoint suggestions</h2>
+<div style="display: flex; align-items: flex-start; gap: 28px; flex-wrap: wrap;">
+<div style="flex: 1 1 600px; min-width: 300px;">
 <p style="font-size: 16px; line-height: 1.6; margin: 0 0 12px 0;">Look at a block or creature and press <strong>V</strong>. The mod identifies the target using its technical data, fills the localized name and position, and reuses a profile you have already saved for the same kind of target. The first time a target is encountered, you remain in control of its icon and color.</p>
 <div style="background: #ffffff; border-left: 4px solid #477a49; border-radius: 4px; margin: 12px 0; padding: 12px 15px;">
 <p style="margin: 0 0 6px 0;"><strong>V</strong> - create a waypoint with automatic target suggestion.</p>
@@ -28,12 +30,13 @@
 <p style="margin: 0;"><strong>Ctrl + Shift + V</strong> - open the mod configuration window.</p>
 </div>
 <p style="line-height: 1.55; margin: 0;">Suggestions are designed to work with content from other mods without requiring a hard-coded list. Because the system is still experimental, unusual targets may need a manual correction before saving. It can be disabled in the mod settings.</p>
-<p style="line-height: 1.55; margin: 0;">&nbsp;</p>
-<p style="line-height: 1.55; margin: 0;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/other_mods.gif?raw=true" alt="" width="530" height="298" /></p>
+</div>
+<div style="flex: 0 1 530px; min-width: 300px; text-align: center;"><img style="display: block; width: 100%; max-width: 530px; height: auto; margin: 0 auto; border-radius: 4px;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/other_mods.gif?raw=true" alt="Smart waypoint suggestions" /></div>
+</div>
 </div>
 <div style="background: #1f1a16; border: 1px solid #57483a; border-radius: 8px; padding: 16px; margin-bottom: 14px; text-align: center;">
 <h3 style="color: #f2dfc2; margin: 0 0 12px 0;">Create a marker in seconds</h3>
-<img style="border: 1px solid #6f5b47; height: auto; margin: 4px; max-width: 100%;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/Waypoints%20NextGen%202.2.0-dev.1%20A.gif?raw=true" alt="Automatic waypoint suggestion for a targeted object" width="500" height="281" /> <img style="border: 1px solid #6f5b47; height: auto; margin: 4px; max-width: 100%;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/Waypoints%20NextGen%202.2.0-dev.1%20B.gif?raw=true" alt="Editing the suggested waypoint icon and color" width="500" height="281" /></div>
+<img style="border-color: #6f5b47; height: auto; max-width: 100%; border-radius: 4px; margin: 0px auto 0px auto;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/Waypoints%20NextGen%202.2.0-dev.1%20A.gif?raw=true" alt="Automatic waypoint suggestion for a targeted object" width="500" height="281" /> <img style="border-color: #6f5b47; height: auto; max-width: 100%; border-radius: 4px; margin: 0px auto 0px auto;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/Waypoints%20NextGen%202.2.0-dev.1%20B.gif?raw=true" alt="Editing the suggested waypoint icon and color" width="500" height="281" /></div>
 <div style="background: #f3eee5; border: 1px solid #d7c8b4; border-radius: 8px; color: #2c251e; padding: 20px 24px; margin-bottom: 14px;">
 <h2 style="color: #6f431b; margin: 0 0 10px 0;">A waypoint editor built for choice</h2>
 <p style="font-size: 16px; line-height: 1.6; margin: 0 0 12px 0;">The icon and color pickers are part of the waypoint window, so the result is visible while you edit it. Categories keep large icon collections manageable, while the live preview shows the selected icon, fill color and outline before you save.</p>
@@ -48,13 +51,13 @@
 <div style="background: #e7edf3; border: 1px solid #bdcbd8; border-radius: 8px; color: #202a33; padding: 20px 24px; margin-bottom: 14px;">
 <h2 style="color: #315776; margin: 0 0 10px 0;">Readable icons at every map scale</h2>
 <p style="font-size: 16px; line-height: 1.6; margin: 0 0 14px 0;">High-resolution icon caching keeps SVG artwork crisp, while automatically generated underlays and outlines help light, dark and open-shaped icons remain visible over the world map. Outline thickness and icon scale can be adjusted independently, and the player marker can be kept above waypoint icons.</p>
-<div style="text-align: center;"><img style="border: 1px solid #879aab; height: auto; margin: 4px; max-width: 100%;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/wng_2.1.0_autoContrast.gif?raw=true" alt="Automatic icon contrast and outline on the world map" width="500" height="357" /> <img style="border: 1px solid #879aab; height: auto; margin: 4px; max-width: 100%;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/wng_2.1.0_playerIcon.gif?raw=true" alt="Player icon rendering above waypoint markers" width="635" height="357" /></div>
+<div style="text-align: center;"><img style="border-color: #879aab; height: auto; max-width: 100%; border-radius: 4px; margin: 0px auto 0px auto;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/wng_2.1.0_autoContrast.gif?raw=true" alt="Automatic icon contrast and outline on the world map" width="500" height="357" /> <img style="border-color: #879aab; height: auto; max-width: 100%; border-radius: 4px; margin: 0px auto 0px auto;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/wng_2.1.0_playerIcon.gif?raw=true" alt="Player icon rendering above waypoint markers" width="635" height="357" /></div>
 </div>
 <div style="background: #fff3d9; border: 1px solid #e4c98e; border-radius: 8px; color: #332817; padding: 18px 24px; margin-bottom: 14px;">
 <h2 style="color: #81571a; margin: 0 0 10px 0;">No manual setup required</h2>
 <p style="font-size: 16px; line-height: 1.6; margin: 0;">Install the mod on the client and start the game. Waypoints NextGen automatically creates the required configuration files and default target profiles. If you change the saved target colors, icons or names, you can restore the original target profiles at any time from the mod settings. The animation below shows how to perform the reset.</p>
 <p style="font-size: 16px; line-height: 1.6; margin: 0;">&nbsp;</p>
-<p style="font-size: 16px; line-height: 1.6; margin: 0;"><img style="border: 1px solid #879aab; height: 381px; max-width: 100%; margin: 4px auto; display: block;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/create_waypint.gif?raw=true" alt="Plug and play" width="680" height="357" /></p>
+<p style="font-size: 16px; line-height: 1.6; margin: 0;"><img style="border-color: #879aab; height: 381px; max-width: 100%; display: block; border-radius: 4px; margin: 0px auto 0px auto;" src="https://github.com/iSanax/Waypoints-NextGen-Page/blob/main/public/gif/2.2.0-dev.1/create_waypint.gif?raw=true" alt="Plug and play" width="680" height="357" /></p>
 </div>
 <div style="background: #f3eee5; border: 1px solid #d7c8b4; border-radius: 8px; color: #2c251e; padding: 18px 24px; margin-bottom: 14px; text-align: center;">
 <div class="spoiler">
