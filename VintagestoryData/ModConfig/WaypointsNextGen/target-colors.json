@@ -629,7 +629,7 @@
         },
         "game:rawclay|type=red": {
           "name": "Red clay",
-          "color": "#FF3B30"
+          "color": "#CD5C5C"
         }
       }
     },
